@@ -1,6 +1,34 @@
 body {
     font-family: arial, sans-serif;
+    margin: 0;
+    font-size: 14px;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 7px;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.left-nav {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.right-nav {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
 .main-info {
     display: flex;
     flex-direction: column;
