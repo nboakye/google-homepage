@@ -6,6 +6,8 @@
 
         <link href="styles/reset.css" rel="stylesheet">
         <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
 
     <body>
@@ -14,14 +16,15 @@
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
             </div>
             <form action="/search" method="post" class="search-area">
-                <div>
+                <div class="search-area-two">
                     <label>
+                        <span class="material-icons search-icon">search</span>
                         <input type="search" name="search" class="search-field">
                     </label>
                 </div>          
                 <div class="search-btns">
-                    <button type="submit">Google Search</button>
-                    <button type="submit">I'm Feeling Lucky</button>
+                    <button type="submit" class="search-btn-1">Google Search</button>
+                    <button type="submit" class="search-btn-2">I'm Feeling Lucky</button>
                 </div>
             </form>
         </div>
