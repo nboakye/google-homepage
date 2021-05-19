@@ -116,3 +116,38 @@ body {
     text-decoration: none;
     font-size: 14px;
 }
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2em;
+    flex-direction: row;
+    height: 50px;
+    padding: 7px;
+    align-items: center;
+    background-color: gainsboro;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-nav-two {
+    margin-left: 15px;
+    text-decoration: none;
+    color:gray;
+}
+
+.middle-spacer {
+    margin-left: auto;
+}
+
+.right-nav-two {
+    margin-left: 5px;
+    text-decoration: none;
+    color: gray;
+    margin-right: 30px;
+}
+
+#push {
+    margin-left: auto;
+}
